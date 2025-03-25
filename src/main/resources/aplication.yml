@@ -1,0 +1,15 @@
+#Preparación para la DB
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:tournament
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update #Configuración que hace que hibernate actualice el esquema de l
+#      la base de datos para que coincida con las entidades JPA
+
+  h2:
+    console:
+      enabled: true
