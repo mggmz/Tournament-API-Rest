@@ -16,7 +16,7 @@ public class Registration {
     private Long idRegistration;
     private String fechaTorneo;
     private String horaToreno;
-    private String cinta;
+    private String nivel;
     private String formaPago;
 
 }
