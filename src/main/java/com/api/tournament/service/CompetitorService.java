@@ -22,4 +22,14 @@ public class CompetitorService {
     public Competitor createCompetitor(Competitor competitor){
         return competitorRepository.save(competitor);
     }
+
+    //Editar Competidor
+    public Competitor updateCompetitor(Competitor competitor){
+        return competitorRepository.save(competitor);
+    }
+
+    //Eliminar Competidor
+    public void deleteCompetitorById(Long id){
+        competitorRepository.deleteById(id);
+    }
 }
